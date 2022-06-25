@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Vazir";
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+.bg-warm { background-image: url('./Components/Weather/images/warm-mini.jpg'); }
+.bg-cold { background-image: url('./Components/Weather/images/cold-mini.jpg'); }
+.bg-usual { background-image: url('./Components/Weather/images/usual-mini.jpg'); }
+
+@media (min-width: 768px) {
+    .bg-warm { background-image: url('./Components/Weather/images/warm.jpg'); }
+    .bg-cold { background-image: url('./Components/Weather/images/cold.jpg'); }
+    .bg-usual { background-image: url('./Components/Weather/images/usual.jpg'); }
+}
