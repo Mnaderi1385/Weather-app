@@ -4,7 +4,7 @@ import { RECEIVE_WEATHER_ERR, RECEIVE_WEATHER_RES, SEND_WEATHER_REQ } from './we
 const weatherStates = {
     loading: false,
     data: [],
-    err: ''
+    err: '',
 };
 
 
